@@ -1,0 +1,195 @@
+.container_tour {
+    margin-top: 3.5rem;
+    margin-bottom: 4.7rem;
+}
+
+.wrapper_tour {
+    width: 100%;
+}
+
+.wrapper_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40rem;
+    height: 100%;
+}
+
+.detail_tour {
+    padding: 0 1rem;
+}
+
+.title_tour {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_tour h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.img_tour {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    color: #7D7D7D;
+    gap: .4rem;
+    margin-top: 2rem;
+}
+
+.info_item {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.details {
+    margin-top: 3rem;
+}
+
+
+.details_mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail_item_label {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.detail_item_text {
+    margin-top: 1rem;
+}
+
+.price_section {
+    margin-top: 3.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price_section span {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.price {
+    font-size: 2.4rem;
+    color: #009ECA;
+}
+
+.btn {
+    min-width: 15.4rem;
+    min-height: 4.2rem;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #28A745;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.detail_tour_desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex: auto;
+    flex-direction: column;
+}
+
+.item:not(:last-child) {
+    border-left: 1px solid #00000040;
+    padding-left: 1.5rem;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.icon {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: #444444;
+    font-weight: 400;
+    margin: 0;
+}
+
+.value {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #000000;
+    margin: 0.3rem 0 0 0;
+}
+
+@media (min-width: 350px) and (max-width: 1023px) {
+    .detail_tour_desktop {
+        display: none;
+    }
+}
+
+
+@media(min-width:1023px) {
+    .detail_tour {
+        display: flex;
+        gap: 4rem;
+    }
+
+    .left_detail {
+        width: 70%;
+    }
+
+    .details_mobile {
+        display: none;
+    }
+
+    .title_tour {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .title_tour p {
+        margin-top: 2rem;
+    }
+
+    .info {
+        font-size: 2rem;
+        justify-content: start;
+        gap: 2.8rem;
+        margin: 3rem 0;
+    }
+
+    .price_section {
+        flex-direction: row-reverse;
+        margin-top: 7.5rem;
+    }
+}

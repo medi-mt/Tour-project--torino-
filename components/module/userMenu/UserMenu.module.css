@@ -1,0 +1,126 @@
+.container {
+    position: relative;
+    display: inline-block;
+    font-family: "YekanBahkh", sans-serif;
+}
+
+.userButton {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #00a24c;
+}
+
+
+.arrow {
+    color: #00a24c;
+    font-size: 1.2rem;
+    transition: transform 0.25s ease;
+}
+
+
+.arrowOpen {
+    transform: rotate(180deg);
+}
+
+
+.userButton .icon {
+    width: 18px;
+    height: 18px;
+}
+
+.phone {
+    direction: ltr;
+}
+
+.dropdown {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    animation: fadeIn 0.2s ease-out;
+    z-index: 999;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.userNumber {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.settingsBtn {
+    background: #f5f5f5;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.settingsBtn img {
+    width: 12px;
+    height: 12px;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem 1.2rem;
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+    color: #333;
+    text-align: right;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.menuItem img {
+    width: 16px;
+    height: 16px;
+}
+
+.menuItem:hover {
+    background: #f8f8f8;
+}
+
+.logout {
+    color: #e3342f;
+}
+
+.logout:hover {
+    background: #fff5f5;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

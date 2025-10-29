@@ -1,0 +1,307 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.wrapper_slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+.wrapper_select {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.select {
+    min-height: 4.7rem;
+    min-width: 16rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid #1919192b;
+    appearance: none;
+}
+
+
+.test {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #888;
+}
+
+.date_section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 2rem .8rem 0 .8rem;
+}
+
+
+.search_btn {
+    width: 100%;
+    min-height: 4.7rem;
+    border-radius: 1.2rem;
+
+}
+
+
+.datePicker {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 1.2rem;
+    padding: .8rem 1.2rem;
+    height: 4.7rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.datePicker:hover {
+    border-color: #28a745;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.select option {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 14px;
+    border: 1px solid #191919;
+    cursor: pointer;
+    appearance: none;
+}
+
+.datePicker img {
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.7;
+    margin-left: .7rem;
+    flex-shrink: 0;
+    pointer-events: none;
+
+}
+
+.datePicker span {
+    font-size: 1.4rem;
+    color: #666;
+    margin-left: .7rem;
+    white-space: nowrap;
+    pointer-events: none;
+
+}
+
+.date {
+    all: unset;
+    flex: 1;
+    text-align: center;
+    color: #333;
+    font-size: 1.4rem;
+    cursor: pointer;
+    min-width: 6rem;
+}
+
+
+
+.search_btn {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.search_btn:hover {
+    background: #23913d;
+}
+
+
+
+
+
+
+@media (min-width: 600px) {
+    .date_section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .datePicker,
+    .search_btn {
+        width: 100%;
+    }
+
+    .select {
+        min-width: 19rem;
+    }
+}
+
+
+@media (min-width: 767px) {
+    .select {
+        min-width: 32.1rem
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        direction: rtl;
+        gap: 0;
+        max-width: 1200px;
+        margin: 1.2rem auto;
+        padding: 6px;
+        background: #fff;
+        border: 1px solid #e6e6e6;
+        border-radius: 1.2rem;
+        box-sizing: border-box;
+    }
+
+    .wrapper_select {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        padding: 0 8px;
+    }
+
+    .test {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 0 22px;
+        min-width: 220px;
+        box-sizing: border-box;
+        border-left: 1px solid #e6e6e6;
+    }
+
+
+
+    .select {
+        all: unset;
+        width: 100%;
+        height: 4.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 0;
+        background: transparent;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+
+
+    .icon {
+        right: 10px;
+
+        left: auto;
+    }
+
+
+    .date_section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        margin: 0;
+        padding: 0 8px;
+    }
+
+    .datePicker {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 22px;
+        height: 4.7rem;
+        min-width: 260px;
+        border: none;
+        border-radius: 0;
+        background: transparent;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .datePicker img {
+        margin-left: 8px;
+        margin-right: 0;
+        flex-shrink: 0;
+    }
+
+    .datePicker span {
+        margin-left: .7rem;
+    }
+
+    .date {
+        all: unset;
+        flex: 1;
+        text-align: center;
+        min-width: 6rem;
+        cursor: pointer;
+    }
+
+    .search_btn {
+        flex: 0 0 auto;
+        height: 4.7rem;
+        width: 19rem;
+        margin: 0;
+        padding: 0 2.5rem;
+        border-radius: 1.2rem;
+        background: #28a745;
+        color: #fff;
+        border: none;
+        box-sizing: border-box;
+        border-left: 1px solid #e6e6e6;
+        cursor: pointer;
+    }
+
+    .search_btn:hover {
+        background: #23913d;
+    }
+
+    .select,
+    .datePicker,
+    .test {
+        border-radius: 0;
+    }
+
+    @media (min-width: 1400px) {
+        .test {
+            min-width: 260px;
+        }
+
+        .datePicker {
+            min-width: 320px;
+        }
+    }
+}
+
+
+
+@media (min-width: 1279px) {
+    .search_btn {
+        width: 28rem;
+    }
+}

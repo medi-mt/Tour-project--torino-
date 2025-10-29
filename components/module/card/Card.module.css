@@ -1,0 +1,59 @@
+
+.wrapper_tour {
+    border: 1px solid #0000001d;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.title {
+    padding-right: .9rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.date {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #282828B2;
+    padding-right: .9rem;
+    padding-bottom: .6rem;
+}
+
+.reservation {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #0000001d;
+    padding: .8rem;
+}
+
+.wrappe_price {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.price {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #009ECA;
+}
+
+.btn {
+    border: none;
+    font-family: "YekanBakh";
+    width: 9.9rem;
+    border-radius: .4rem;
+    padding: .5rem 0;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #28A745;
+    cursor: pointer;
+}
+
+
+

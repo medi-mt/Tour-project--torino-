@@ -1,0 +1,39 @@
+.title {
+    text-align: center;
+}
+
+.wrapper_input {
+    margin: 1.5rem 0;
+}
+
+.label {
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: #0000008d;
+}
+
+.wrapper_input input {
+    width: 100%;
+    padding: 1rem;
+    outline: 0;
+    border-radius: .6rem;
+    border: 1px solid #00000040;
+}
+
+
+.sendBtn {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #28A745;
+    color: aliceblue;
+    font-family: "YekanBakh";
+    border-radius: .6rem;
+    border: 1px solid #00000040;
+    margin: 2rem 0;
+}
+
+.err {
+    color: red;
+    padding: 1rem;
+}

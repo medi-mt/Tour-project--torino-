@@ -1,0 +1,41 @@
+.services_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.service_icon {}
+
+.service_title {
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.service_text {}
+
+
+@media (min-width:390px),
+(max-width:1023px) {
+    .services_wrapper {
+        justify-content: center;
+    }
+
+    .service_icon {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .service_title {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+}

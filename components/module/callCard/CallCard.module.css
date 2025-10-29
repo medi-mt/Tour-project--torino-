@@ -1,0 +1,86 @@
+.card {
+  background-color: #fff;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  margin: 10rem auto;
+}
+
+.topSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2e944b;
+  color: #fff;
+  padding: 1.5rem;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+
+.image {
+  width: 120px;
+  height: auto;
+}
+
+.textContent h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.textContent h3 span {
+  color: #fff;
+}
+
+.textContent p {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.infoButton {
+  background-color: #0b3d20;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.infoButton:hover {
+  background-color: #156830;
+}
+
+.phoneBox {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #0b3d20;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+
+
+@media(min-width:1023px) {
+  .card {
+    display: flex;
+    width: 100%;
+  }
+
+  .topSection {
+    width: 70%;
+  }
+
+  .bottomSection {
+    gap: 1rem;
+  }
+}

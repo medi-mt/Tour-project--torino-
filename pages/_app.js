@@ -1,5 +1,20 @@
-import "@/styles/globals.css";
+import Layout from "../layout/Layout"
+import TanstakQueryProvider from "../components/provider/TanstakQueryProvider"
+import "../styles/globals.css"
+
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+
+  return (
+    <>
+
+      <TanstakQueryProvider>
+        <Layout>
+          < Component {...pageProps} />
+        </Layout>
+      </TanstakQueryProvider>
+
+    </>
+  )
+
 }

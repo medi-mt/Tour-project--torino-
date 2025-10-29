@@ -1,0 +1,153 @@
+.wrapper {
+    margin-bottom: 2rem;
+}
+
+.box {
+    border: 1px solid #00000070;
+    border-radius: 1.2rem;
+    margin-top: 2rem;
+}
+
+.top_section {
+    position: relative;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+}
+
+.status_tour {
+    background-color: #28a74680;
+    font-size: .6rem;
+    margin-top: .8rem;
+    border-radius: .4rem;
+    width: fit-content;
+    padding: .3rem .8rem;
+
+}
+
+
+
+.wrapper_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.vehicle {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.wrapper_destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.destination {
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.start_date {
+    color: #00000070;
+    font-size: 1.2rem;
+}
+
+.end_date_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.end_date_wrapper:last-child {
+    color: #00000070;
+    font-size: 1.2rem;
+}
+
+.end_date {
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.top_section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    border-radius: .2rem;
+    background-color: #00000070;
+    margin-bottom: 1rem;
+    transform: translateY(50%);
+}
+
+
+.bottom_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.number_tour,
+.wrapper_price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.number_tour p {
+    font-size: 1rem;
+    color: #00000080;
+}
+
+.wrapper_price {
+    font-size: 1rem;
+    color: #00000080;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.price_number {
+    font-size: 1.4rem;
+    color: #282828;
+}
+
+.toman {
+    font-size: 1rem;
+    color: #00000080;
+}
+
+.number_tour {
+    border-left: 1px solid #00000070;
+    padding-left: 1rem;
+}
+
+
+.active {
+    background-color: #28A7454D;
+   
+}
+
+.finished {
+    background-color: #e74d3c91;
+   
+}
+
+.pending {
+    background-color: #d1b90083;
+}
