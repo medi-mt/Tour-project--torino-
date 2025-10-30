@@ -37,7 +37,7 @@ function CardUserTour({
 
     return (
         <div className={styles.wrapper}>
-           
+
             <div className={styles.box}>
                 <div className={styles.top_section}>
                     {status && (
@@ -62,7 +62,7 @@ function CardUserTour({
 
                     <div className={styles.wrapper_destination}>
                         <p className={styles.destination}>
-                            {originName} به {destinationName}
+                            {translateCity(originName)} به {translateCity(destinationName)}
                         </p>
                         <p className={styles.start_date}>.{formatDate(startDate)}</p>
                     </div>

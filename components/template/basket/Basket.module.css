@@ -118,6 +118,7 @@
 .err {
     color: red;
     padding-top: 0.4rem;
+    display: inline-block;
 }
 
 

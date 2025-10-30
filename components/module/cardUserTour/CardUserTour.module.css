@@ -140,14 +140,19 @@
 
 .active {
     background-color: #28A7454D;
-   
+
 }
 
 .finished {
     background-color: #e74d3c91;
-   
+
 }
 
 .pending {
     background-color: #d1b90083;
+}
+
+.title img {
+    width: 2.2rem;
+    height: 2.2rem;
 }

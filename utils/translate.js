@@ -4,7 +4,7 @@ const translateVehicle = (vehicle) => {
         airplane: "هواپیما",
         train: "قطار",
         ship: "کشتی",
-        suv: "خودرو های آفرود"
+        SUV: "خودرو های آفرود"
     }
 
     return value[vehicle] || vehicle
@@ -22,6 +22,13 @@ const translateCity = (city) => {
         Hamedan: "همدان",
         Kermanshah: "کرمانشاه",
         Kurdestan: "کردستان",
+        Sulaymaniyah: "سلیمانیه",
+        Madrid: "مادرید",
+        Hewler:"هولر",
+        Mazandaran:"مازندران",
+        Gilan:"گیلان",
+        Italy:"ایتالیا",
+        Sananndaj :"سنندج"
     }
     return value[city] || city
 }

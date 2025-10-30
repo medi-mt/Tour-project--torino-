@@ -115,8 +115,6 @@ function Basket() {
                         {error && (<p className={styles.err}>{error?.genderErr}</p>)}
                         <input onChange={changeHandler} name="nationalCode" className={styles.input_national_code} type="text" placeholder=" کد ملی" />
                         {error && (<p className={styles.err}>{error?.nationalCodeErr}</p>)}
-
-
                         <DatePicker
                             value={birthDate}
                             onChange={dateHandler}

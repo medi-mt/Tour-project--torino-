@@ -7,9 +7,9 @@ function MyTour() {
 
     const { data, isPending } = useGetUserTour()
 
+    if (!data?.length === 0) return <p className={styles.notFound_tour}>در حال حاضر توری ندارید</p>
     if (isPending) return (<p>درحال بارگزاری...</p>)
 
-    if (!data?.title) return <p className={styles.notFound_tour}>در حال حاضر توری ندارید</p>
     return (
         <>
             {
