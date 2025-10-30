@@ -34,11 +34,10 @@ function CardUserTour({
 
     const statusClass = status === "در حال برگزاری" ? styles.active : status === "به اتمام رسیده" ? styles.finished : styles.pending;
 
-    if (!id) return (<p>شما درحال حاظر توری ندارید</p>)
-
 
     return (
         <div className={styles.wrapper}>
+           
             <div className={styles.box}>
                 <div className={styles.top_section}>
                     {status && (

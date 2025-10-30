@@ -7,6 +7,7 @@ function MyTour() {
     const { data, isPending } = useGetUserTour()
 
     if (isPending) return (<p>درحال بارگزاری...</p>)
+
     return (
         <>
             {

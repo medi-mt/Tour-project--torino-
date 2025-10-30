@@ -1,4 +1,6 @@
-.wrapper_detail_profile {}
+.wrapper_detail_profile {
+    width: 100%;
+}
 
 .user_info {
     display: flex;
@@ -243,4 +245,9 @@
 
 .err {
     color: red;
+}
+
+.user_info {
+    /* min-width: 70rem; */
+    width: 100%;
 }
