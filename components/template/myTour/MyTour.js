@@ -1,7 +1,10 @@
 "use client"
-import { useGetUserTour } from "../../../services/query"
+
+
+import { useGetUserTour } from "../../core/services/query"
 import CardUserTour from "../../module/cardUserTour/CardUserTour"
 import styles from "./MyTour.module.css"
+
 
 function MyTour() {
 

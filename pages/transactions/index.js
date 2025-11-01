@@ -1,3 +1,5 @@
+" use client"
+
 import Transactions from "../../components/template/transactions/Transactions"
 import ProfilePage from '../../components/template/profilePage/ProfilePage'
 

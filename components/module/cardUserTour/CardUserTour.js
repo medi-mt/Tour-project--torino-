@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
-import { formatDate } from "../../../utils/formatDate"
-import { translateVehicle, translateCity } from "../../../utils/translate"
+import { formatDate } from "../../core/utils/formatDate"
+import { translateVehicle, translateCity } from "../../core/utils/translate"
 import styles from "./CardUserTour.module.css";
 
 function CardUserTour({

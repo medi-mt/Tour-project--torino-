@@ -1,5 +1,5 @@
 import HomePage from "../components/template/homePage/HomePage"
-import { serverFetch } from "../services/http"
+import { serverFetch } from "../components/core/services/http"
 
 export default function Home({ tours }) {
 

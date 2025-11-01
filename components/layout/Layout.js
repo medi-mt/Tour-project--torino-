@@ -1,8 +1,8 @@
 
 import { useState } from "react"
 import { Toaster } from 'react-hot-toast';
-import MobileSlider from "../components/module/mobileSlider/MobileSlider"
-import OtpBtn from "../components/module/otpBtn/OtpBtn"
+import MobileSlider from "../module/mobileSlider/MobileSlider"
+import OtpBtn from "../module/otpBtn/OtpBtn"
 import Link from "next/link"
 import { useRouter } from "next/router"
 

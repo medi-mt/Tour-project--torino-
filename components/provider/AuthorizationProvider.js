@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from "next/router"
-import { useProfile } from '../../services/query'
+import { useProfile } from '../../components/core/services/query'
 
 function AuthorizationProvider({ children }) {
 

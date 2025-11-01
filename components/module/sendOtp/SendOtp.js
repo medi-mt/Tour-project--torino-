@@ -1,8 +1,8 @@
 
 import { useState } from 'react'
 import { toast } from 'react-hot-toast';
-import ValidationPhoneNumber from '../../../utils/ValidationPhoneNumber'
-import { useSendOtp } from '../../../services/mutations'
+import ValidationPhoneNumber from '../../core/utils/ValidationPhoneNumber'
+import { useSendOtp } from '../../core/services/mutations'
 import styles from "./SendOtp.module.css"
 
 function SendOtp({ mobile, setMobile, setStep }) {

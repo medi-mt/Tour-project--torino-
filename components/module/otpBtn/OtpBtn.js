@@ -4,7 +4,7 @@ import SendOtp from "../sendOtp/SendOtp"
 import ValidationOtp from "../validationOtp/ValidationOtp"
 import OtpModal from "../../container/otpModal/OtpModal"
 import styles from "./OtpBtn.module.css"
-import { useProfile } from "../../../services/query"
+import { useProfile } from "../../core/services/query"
 import UserMenu from "../userMenu/UserMenu"
 
 

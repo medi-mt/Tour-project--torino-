@@ -1,7 +1,7 @@
 import Card from "../../module/card/Card"
 import Link from "next/link";
-import styles from "./Tours.module.css"
 import { FaArrowLeftLong } from "react-icons/fa6";
+import styles from "./Tours.module.css"
 
 function Tours({ toursData }) {
     console.log(toursData);

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import InputOTP from "react18-input-otp";
-import { useValidateOtp } from "../../../services/mutations";
+import { useValidateOtp } from "../../core/services/mutations";
 import Timer from "../timer/Timer";
 import toast from "react-hot-toast";
-import { setCookie } from "../../../utils/cookie";
+import { setCookie } from "../../core/utils/cookie";
 import styles from "./ValidationOtp.module.css"
 
 

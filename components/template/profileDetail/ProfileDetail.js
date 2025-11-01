@@ -1,4 +1,4 @@
-import isValidIranianNationalCode from "../../../utils/validationNationalCode"
+import isValidIranianNationalCode from "../../core/utils/validationNationalCode"
 import DatePicker from "react-multi-date-picker"
 import DateObject from "react-date-object";
 import persian from "react-date-object/calendars/persian"
@@ -8,10 +8,12 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { schemaBank, schemaEmail } from "../../../schema/schema";
 import toast from "react-hot-toast";
 import { useState } from "react";
-import { useEditUserProfile } from "../../../services/mutations"
+import { useEditUserProfile } from "../../core/services/mutations"
 import styles from "./ProfileDetail.module.css"
-import { useProfile } from "../../../services/query";
+import { useProfile } from "../../core/services/query";
 import t from "react-date-object/locales/persian_fa";
+
+
 function ProfileDetail() {
 
 
@@ -32,6 +34,7 @@ function ProfileDetail() {
 
     const { mutate } = useEditUserProfile()
     const { data } = useProfile()
+
 
     const {
         register,

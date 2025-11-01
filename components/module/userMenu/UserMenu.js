@@ -2,9 +2,9 @@ import { useState } from "react"
 import Link from 'next/link';
 import { useQueryClient } from "@tanstack/react-query"
 import { toast } from "react-hot-toast"
-import { setCookie } from "../../../utils/cookie"
+import { setCookie } from "../../core/utils/cookie"
 import { useRouter } from "next/router"
-import { useProfile } from "../../../services/query"
+import { useProfile } from "../../core/services/query"
 import styles from "./UserMenu.module.css"
 
 function UserMenu() {

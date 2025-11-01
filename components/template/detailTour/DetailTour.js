@@ -1,8 +1,8 @@
 import { toast } from 'react-hot-toast';
 import { useRouter } from 'next/router'
-import { useSendTourBasket } from "../../../services/mutations";
-import { formatDate } from "../../../utils/formatDate";
-import { translateVehicle, translateCity } from "../../../utils/translate";
+import { useSendTourBasket } from "../../core/services/mutations";
+import { formatDate } from "../../core/utils/formatDate";
+import { translateVehicle, translateCity } from "../../core/utils/translate";
 import styles from "./DetailTour.module.css";
 
 function DetailTour({ tours }) {

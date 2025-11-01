@@ -1,12 +1,14 @@
 "use client"
+
 import styles from "./Transactions.module.css"
-import { useGetUserTransactions } from "../../../services/query"
-import { formatDate, formatTime } from "../../../utils/formatDate";
+import { useGetUserTransactions } from "../../core/services/query"
+import { formatDate, formatTime } from "../../core/utils/formatDate";
+
 function Transactions() {
 
   const { data, isPending } = useGetUserTransactions()
 
-  console.log(data);
+ 
   return (
     <div className={styles.wrapper}>
       <table className={styles.table}>
